@@ -1,4 +1,4 @@
-import { UserProvider } from "@/modules/users/components/UserProvider";
+import { UserProvider } from "@/modules/care/components/CareContext";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 

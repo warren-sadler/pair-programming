@@ -1,14 +1,14 @@
-import { UserContext } from "@/modules/users/components/UserProvider";
 import { useContext } from "react";
+import { CareContext } from "@/modules/care/components/CareContext";
 
 export default function IndexPage() {
-  const { users } = useContext(UserContext);
+  const { providers } = useContext(CareContext);
   return (
     <main>
       <h2>Hello World</h2>
       <>
-        {users.length ? (
-          <pre>{JSON.stringify(users)}</pre>
+        {providers.length ? (
+          <pre>{JSON.stringify(providers)}</pre>
         ) : (
           "Nothing to see here"
         )}
