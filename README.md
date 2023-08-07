@@ -20,7 +20,7 @@ Hello and welcome to your Therify Pair Programming interview. At our core, Theri
 
 - [ ] **Understanding**
 
-  Candidate exhibits a clear understanding of React and Typescript Concepts. _Candidates may use Google for syntax and reference documentation_.
+  Candidate exhibits a clear understanding of React and Typescript Concepts. _Candidates may use Google for syntax and to reference related documentation_.
 
 - [ ] **Communication**
 
