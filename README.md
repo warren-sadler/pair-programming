@@ -2,7 +2,7 @@
 
 # Introduction
 
-Hello and welcome to your Therify Pair Programming interview. At our core, Therify is matching company. Given an individual with a need we believe we can provide to them be resource best suited for their lived experience and personal circumstance. In this interview you will be tasked with implementing a small piece of our matching software using Typescript, React, and a tiny bit of NextJS. Let's get started!
+Hello and welcome to your Therify Pair Programming interview. At our core, Therify is matching company. Given an individual with a need we believe we can provide to them a resource best suited for their lived experience and personal circumstance. In this interview you will be tasked with implementing a small piece of our matching software using Typescript, React, and a tiny bit of NextJS. Let's get started!
 
 ## Getting Started
 
