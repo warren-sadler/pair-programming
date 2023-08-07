@@ -12,9 +12,9 @@ Hello and welcome to your Therify Pair Programming interview. At our core, Theri
 
 ## Objectives
 
-- (5-10m) Use React Context to share data throughout the application
-- (5-10m) Fetch data from external(simulated) data sources
-- (20-25m) Leverage React and state to filter the data according to user input
+- _(5-10m)_ Use React Context to share data throughout the application
+- _(5-10m)_ Fetch data from external(simulated) data sources
+- _(20-25m)_ Leverage React and state to filter the data according to user input
 
 ## Grading Rubric
 
