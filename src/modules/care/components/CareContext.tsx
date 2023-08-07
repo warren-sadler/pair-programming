@@ -1,9 +1,9 @@
 import { createContext } from "react";
 
 export interface Provider {
-  designation: "Therapist" | "Coach";
+  designation: "Therapist" | "Coach" | "Prescriber";
   name: string;
-  age: number;
+  specialties: ("Depression" | "Anxiety" | "Stress" | "Relationships")[];
 }
 
 interface CareContext {
