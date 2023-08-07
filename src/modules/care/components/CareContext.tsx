@@ -14,7 +14,7 @@ export const CareContext = createContext({
   providers: [],
 });
 
-export const UserProvider = () => {
+export const CareProvider = () => {
   return (
     <CareContext.Provider
       value={{
