@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@faker-js/faker':
+    specifier: ^8.0.2
+    version: 8.0.2
   '@types/node':
     specifier: 20.4.8
     version: 20.4.8
@@ -82,6 +85,11 @@ packages:
   /@eslint/js@8.46.0:
     resolution: {integrity: sha512-a8TLtmPi8xzPkCbp/OGFUo5yhRkHM2Ko9kOWP4znJr0WAhWyThaw3PnwX4vOTWOAMsV2uRt32PPDcEz63esSaA==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: false
+
+  /@faker-js/faker@8.0.2:
+    resolution: {integrity: sha512-Uo3pGspElQW91PCvKSIAXoEgAUlRnH29sX2/p89kg7sP1m2PzCufHINd0FhTXQf6DYGiUlVncdSPa2F9wxed2A==}
+    engines: {node: ^14.17.0 || ^16.13.0 || >=18.0.0, npm: '>=6.14.13'}
     dev: false
 
   /@humanwhocodes/config-array@0.11.10:
