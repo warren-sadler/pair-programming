@@ -1,4 +1,4 @@
-import { ReactNode, createContext } from "react";
+import { createContext } from "react";
 
 export interface Provider {
   designation: "Therapist" | "Coach";
@@ -14,14 +14,14 @@ export const CareContext = createContext({
   providers: [],
 });
 
-export const UserProvider = ({ children }: { children: ReactNode }) => {
+export const UserProvider = () => {
   return (
     <CareContext.Provider
       value={{
         providers: [],
       }}
     >
-      {children}
+      {/* children here */}
     </CareContext.Provider>
   );
 };
